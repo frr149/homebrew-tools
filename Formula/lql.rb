@@ -1,25 +1,25 @@
 class Lql < Formula
   desc "Linear Query Language — CLI for Linear optimized for LLM consumption"
   homepage "https://frr.dev"
-  version "1.5.1"
+  version "1.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/frr149/lql/releases/download/v1.5.1/lql-aarch64-apple-darwin.tar.xz"
-      sha256 "51f3d7cbdd2b589925c9abb1f2d8044e1fc4aba6a2ef7690cbbc5bdf6847843f"
+      url "https://github.com/frr149/lql/releases/download/v1.6.0/lql-aarch64-apple-darwin.tar.xz"
+      sha256 "51d8242104ac8861c7f7669269d7dc6579424b45b61c0033899fb8606589e6d2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/frr149/lql/releases/download/v1.5.1/lql-x86_64-apple-darwin.tar.xz"
-      sha256 "24fc727a4adc07c06ee507965e7d273957c0aa1dfd6fc2175dad2a944129e100"
+      url "https://github.com/frr149/lql/releases/download/v1.6.0/lql-x86_64-apple-darwin.tar.xz"
+      sha256 "89538be3ae0ebb57cfea215333d24724c3bd30d1cdcdf42d6d4798370f218925"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/frr149/lql/releases/download/v1.5.1/lql-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "81af4b067a8fd65774d3aba5a13f0497cec4ffa350ec74464e1d906e93d205fa"
+      url "https://github.com/frr149/lql/releases/download/v1.6.0/lql-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "17c54ff79676815c49c1505adb65483ca494659687cbedd92d637a6dda7c3669"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/frr149/lql/releases/download/v1.5.1/lql-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8737e30b057232e98c92f58c18313933d446af57f096e09bac82b3d145aee216"
+      url "https://github.com/frr149/lql/releases/download/v1.6.0/lql-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2838a4c5dab61a72a2aa3d8da1342ad0ec0d9cd931b4c64ab446fd905f7c4d5f"
     end
   end
   license "MIT"
